@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes\Logos.png"" alt="Logo de alura" >
+    </header>
+        <div class="container">
+            <div class="encriptar">
+                <textarea name="text" id="text" class="text-area" placeholder="Ingrese el texto aquí" cols="30" rows="10">
+                </textarea>
+                <div class="reglas">
+                    <p>Solo letras minusculas y sin acento</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                    <button type="button"classbtn-desencriptar value="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div> 
+            </div>
+            <div class="encriptado">
+                <img src="imagenes/Muñeco.png" alt="" id="muneco">
+                <div class="msj-encriptado" id="msj-encriptado">
+                    <h2 id="tittle.msj">no se encrontró ningun mensaje</h2>
+                    <p id="text-msj">Ingresa su texto aquí</p>
+                    <textarea class="msj" name="msj" id="msj" cols="30" rows="10"></textarea>
+                </div>
+            </div>  
+        </div>
+</body>
+</html>
